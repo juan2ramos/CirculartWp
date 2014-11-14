@@ -1,0 +1,463 @@
+/* 
+    Document   : style
+    Created on : 25/04/2014, 18:06:43
+    Author     : Juan Ramos
+
+*/
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?-srhekv');
+    src: url('fonts/icomoon.eot?#iefix-srhekv') format('embedded-opentype'), url('fonts/icomoon.woff?-srhekv') format('woff'), url('fonts/icomoon.ttf?-srhekv') format('truetype'), url('fonts/icomoon.svg?-srhekv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-uniE603:before {
+    content: "\e603";
+}
+
+.icon-facebook:before {
+    content: "\e600";
+}
+
+.icon-twitter:before {
+    content: "\e601";
+}
+
+.icon-pinterest:before {
+    content: "\e602";
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+
+    background: #dbd5cc;
+    font-family: 'coolveticaregular', sans-serif;
+    font-size: 16px;
+}
+
+body, h2, h3, h4, p {
+    font-weight: 300
+}
+
+*:focus {
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+section {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1060px;
+}
+
+h2 {
+    color: #48463F;
+    font-size: 1.3em;
+    margin: 50px 0 0;
+    padding: 10px 10px 7px;
+    text-transform: uppercase;
+}
+
+/*=================================================================
+header
+===================================================================*/
+header {
+
+    margin: 10px auto;
+    position: relative;
+    width: 1060px
+}
+
+#contend-logo {
+    position: absolute;
+    width: 902px;
+    top: 407px;
+}
+
+#header-buttom img {
+    width: 1060px;
+}
+
+.logo {
+
+    border-left: 3px #fff solid;
+    border-top: 3px #fff solid;
+    border-bottom: 3px #fff solid;
+    color: #48463f;
+    height: 80px;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    right: -20px;
+    top: 3px;
+}
+
+.logo-circulart {
+    border: solid #fff;
+    border-radius: 50%;
+    background: #BFC823;
+    right: -143px;
+    padding: 35px 40px 35px 30px;
+    position: absolute;
+    top: -40px;
+}
+
+.logo-circulart img {
+    width: 80px;
+}
+
+/*=================================================================
+Nav
+===================================================================*/
+nav > ul {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+nav a {
+
+    color: #48463f;;
+    display: block;
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    border-bottom: 5px solid #be6b50;
+    color: #be6b50;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+#network {
+    background: #48463f;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: right;
+    padding-right: 4px;
+    width: 1060px;
+}
+
+#network a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.8em;
+    height: 40px;
+    line-height: 0;
+    padding: 7px 0 0;
+    text-align: center;
+    width: 40px;
+}
+
+#network a:hover {
+    color: #be6b50;
+    border: none;
+}
+
+#network li {
+    padding: 6px 1px;
+}
+
+#youtube a {
+    background: #DBD5CC;
+    color: #EA202C;
+    padding-left: 4px
+}
+
+#facebook a {
+    background: #BFC823;
+    color: #48463F;
+}
+
+#twitter a {
+    background: #3E8F9A;
+    color: #48463F;
+}
+
+#pinterest a {
+    background: #F27227;
+    color: #48463F;
+}
+
+#network img {
+    max-width: 40px;
+}
+
+.active {
+    border-bottom: 5px solid #be6b50;
+
+}
+
+/*=================================================================
+Footer
+===================================================================*/
+footer {
+    background: #48463f;
+    clear: both;
+    margin: 200px auto;
+    width: 1060px
+}
+
+footer a {
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav-footer {
+    padding: 60px 20px 40px;
+}
+
+#nav-footer img {
+    max-height: 50px
+}
+
+#nav-footer li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+/*=================================================================
+Que es
+===================================================================*/
+h2 {
+    color: #48463F;
+    font-size: 2em;
+    margin: 50px 0 0;
+    padding: 10px 10px 7px;
+    text-transform: uppercase;
+}
+
+#myCanvas {
+    left: -20px;
+    position: absolute;
+    top: 100%;
+}
+
+.que-es {
+    background: #00A8A6;
+}
+
+#que-es article {
+    position: relative;
+    height: 330px;
+    width: 1040px;
+}
+
+#que-es img {
+    float: right;
+    margin-top: -13px
+}
+
+#que-es h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+#que-es p {
+    font-size: .8em;
+}
+
+#que-es h3, #que-es p {
+    color: #48463F;
+    letter-spacing: .1em;
+    width: 600px;
+}
+
+/*=================================================================
+Portafolio
+===================================================================*/
+.portafolio {
+    background: #BFC823;
+}
+
+#portafolio ul {
+    margin: 0;
+    width: 940px;
+}
+
+#portafolio li {
+    display: inline-block;
+    margin: 10px 4px 0 0;
+    width: 300px;
+}
+
+#portafolio ul h2, #portafolio ul h3, #portafolio ul h4 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#portafolio ul h2 {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 15px 25px;
+}
+
+#portafolio ul h3 {
+    font-size: .9em;
+    padding: 10px 15px;
+}
+
+#portafolio ul h4 {
+    font-size: .9em;
+    padding: 20px 15px 10px;
+}
+
+.contend-portafolio {
+    background: #fff;
+}
+
+/*=================================================================
+Noticias
+===================================================================*/
+.noticias {
+    background: #5AADAF;
+}
+
+#noticias img {
+    float: left;
+    margin-right: 20px
+}
+
+#noticias h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 20px;
+
+}
+
+#noticias p {
+    font-size: .8em;
+}
+
+#noticias h3, #noticias p {
+    color: #48463F;
+    letter-spacing: .1em;
+}
+
+#noticias article {
+    position: relative;
+    width: 1040px;
+}
+
+/*=================================================================
+Contacto
+===================================================================*/
+.contacto {
+    background: #58595B;
+}
+
+#contacto {
+    width: 1060px;
+}
+
+#contacto li {
+    display: inline-block;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
+    width: 33%;
+}
+
+#contacto li:hover .name-contact {
+    display: block;
+
+
+}
+
+#contacto p {
+    background: #48463F;
+    color: #BFC823;
+    margin: 0;
+    padding: 5px 25px 5px 5px;
+    width: 150px;
+    display: inline-block;
+
+
+}
+#contacto .arrow{
+    border-bottom: 28px solid #48463F;
+    border-left: 20px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+}
+#contacto ul {
+    margin: 50px 0;
+}
+
+#contacto .name-contact {
+    display: none;
+    position: absolute;
+    left: 200px;
+    text-align: left;
+    top: 90px;
+    width: 250px;
+    z-index: 1;
+}
+.arrow-buttom{
+    border-top: 13px solid #48463F;
+    border-left: 10px solid transparent;
+    left: -10px;
+    position: absolute;
+    top: 15px;
+}
+.arrow-top{
+    border-bottom: 15px solid #48463F;
+    border-left: 10px solid transparent;
+    left: -10px;
+    position: absolute;
+    top: 0;
+}
+.contend-p{
+    margin: 5px ;
+    position: relative;
+}
+.width p{
+    padding: 5px 25px !important;
+}
